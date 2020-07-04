@@ -1,3 +1,12 @@
-console.log('it works');
-
-// code your solution in here
+const newH5 = document.createElement("h5");
+newH5.classList.add("new-card-title");
+console.log(newH5);
+const newParagraph = document.createElement("p");
+newParagraph.classList.add("new-card-text");
+console.log(newParagraph);
+const newSpan = document.createElement("span");
+newSpan.classList.add("new-badge", "new-badge-light");
+console.log(newSpan);
+const firsDiv = document.createElement("div");
+firsDiv.classList.add("new-card-body");
+console.log(firsDiv);
